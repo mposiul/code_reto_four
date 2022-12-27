@@ -1,0 +1,58 @@
+.nav {
+    --traslate-list-header: 100%;
+    --scale-menu: 1;/*variable menu*/
+    --scale-close: 0;/*variable cierre*/
+    padding-top: 0.75rem;/**/
+    padding-bottom: 0.75rem;/**/
+
+    &:target {
+        --traslate-list-header: 0;
+        --scale-menu: 0;/*valor inverso .nav variable menu*/
+        --scale-close: 1;/*valor inverso .nav variable cierre*/
+    }
+    
+    &__logo {
+        display: flex;/*eliminalineasinrellenardebajodeimagendellogo*/
+        width: 48px;/**/
+        height: 48px;/**/
+        border-radius: 10%;/**/
+    }
+    
+    &__title {
+        font-size: 1rem;
+    }
+
+    &__icon {
+        position: absolute;/*trabajacon.navenpositionrelative*/
+        right: var(--padding-container);
+        color: var(--primary-text-color);/*cambia el color del elemento del ancor*/
+        font-size: 1.75rem;
+        text-decoration: none;
+        transition: transform 0.25s;/*tiempo de aparicion del icono*/
+    }
+    
+    &__icon--menu {
+        transform: scale(var(--scale-menu));
+    }
+    
+    &__icon--close {
+        transform: scale(var(--scale-close));
+    }
+}
+
+
+@media (min-width: 768px) {
+    .nav {
+        --traslate-list-header: 0;
+        --scale-menu: 0;/*variable menu*/
+        --scale-close: 0;/*variable cierre*/
+        
+        &__title {
+            font-size: 2rem;
+        }
+    }
+
+    .nav:target {
+        --scale-close: 0;/*valor inverso .nav variable cierre*/
+    }
+}

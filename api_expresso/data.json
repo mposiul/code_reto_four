@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "nombre": "Café Expreso",
+        "descripcion": "Café Expreso es aquel café que se obtiene haciendo pasar el café por una máquina capaz  de enviar agua caliente sobre los 92º centígrados a alta presión, generalmente a 9 bares durantes unos 25 segundos sobre una pastilla de café prensado.",
+        "precio": "7.00",
+        "urlImagen": "https://i.postimg.cc/1XyGPpML/1-expresso-1024.jpg",
+        "urlReceta": "https://cafesabora.com/es/caf%C3%A9-expreso-%C2%BFqu%C3%A9-es-y-c%C3%B3mo-se-prepara"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Café_Americano",
+        "descripcion": "El café americano o american coffee es un tipo de preparación de procedencia estadounidense, en la que se diluye el café espresso en agua caliente, reduciendo así la intensidad de su sabor.",
+        "precio": "7.50",
+        "urlImagen": "https://i.postimg.cc/Y9TGcSY5/2-americano-1024.jpg",
+        "urlReceta": "https://cafeselcriollo.com/noticias-y-eventos/cafe-americano-todo-lo-que-necesitas-saber/"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Café_Cappuccino",
+        "descripcion": "Un cappuccino corresponde aproximadamente a 150ml de bebida, compuesta por un espresso (30 ml) + partes iguales de leche y crema de leche.",
+        "precio": "9.00",
+        "urlImagen": "https://i.postimg.cc/YqxQS9y1/3-cappuccino-1024.jpg",
+        "urlReceta": "https://www.illy.com/es-es/cafe/tipos-de-cafe-segun-la-preparacion/receta-cafe-capuchino"
+    },
+
+    {
+        "id": 4,
+        "nombre": "Café_Mocca",
+        "descripcion": "El mocachino, muchas veces escrito como mocaccino o simplemente café moca, es una variante del tradicional capuchino. Ambos tienen prácticamente el mismo método de preparación, solo que el mocachino se hace con chocolate.",
+        "precio": "12.00",
+        "urlImagen": "https://i.postimg.cc/VNWrSJDq/4-mocca-1024.jpg",
+        "urlReceta": "https://www.todosobrecafe.com/cafe-mocachino/"
+    },
+
+    {
+        "id": 5,
+        "nombre": "Café_Bombon",
+        "descripcion": "Como sabes, el café bombón no es más que un café servido con leche condensada, pero es importante respetar las proporciones de los ingredientes, y darle un toque especial para disfrutar de la sobremesa.",
+        "precio": "12.00",
+        "urlImagen": "https://i.postimg.cc/2jF2jg8B/5-bombon-1024.jpg",
+        "urlReceta": "https://www.divinacocina.es/como-se-hace-el-cafe-bombon/"
+    },
+
+    {
+        "id": 6,
+        "nombre": "Café Latte",
+        "descripcion": "La palabra Latte viene del italiano y significa «café con leche», sin embargo la preparación es lo que distingue a esta bebida, pues su proceso puede considerar todo un arte, es un preparado a base de café espresso y leche al vapor.",
+        "precio": "13.00",
+        "urlImagen": "https://i.postimg.cc/QNwLT0Bb/6-latte-1024.jpg",
+        "urlReceta": "https://clubdelcafe.net/receta-cafe-latte/"
+    },
+
+    {
+        "id": 7,
+        "nombre": "Café Miel Macchiato",
+        "descripcion": "Un macchiato es una bebida cafeinada hecha con espresso, miel natural y leche vaporizada. Un macchiato es similar a un cappuccino y un latte, pero la principal diferencia es la proporción de café, leche y espuma.",
+        "precio": "13.00",
+        "urlImagen": "https://i.postimg.cc/GhhF5x4D/7-mielmac-1024.jpg",
+        "urlReceta": "https://www.nespresso.com/es/es/recetas/vanilla-almond-reverso"
+    },
+
+    {
+        "id": 8,
+        "nombre": "Café_Vanilla",
+        "descripcion": "La receta Vanilla Almond Reverso tiene todos los ingredientes para convertirse en tu desayuno soñado. Además del crocante de la almendra y la dulzura de la miel, la suave y equilibrada Vainilla.",
+        "precio": "13.00",
+        "urlImagen": "https://trade.nespresso.es/cdn/hub-recetas/img_miniatura/receta_vertuo_PH_Vanilla_Almond_Reverso_v2.jpg",
+        "urlReceta": "https://www.nespresso.com/es/es/recetas/vanilla-almond-reverso"
+    }
+]

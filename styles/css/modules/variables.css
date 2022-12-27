@@ -13,19 +13,24 @@
     --secondary-highlight-color: gold;
     --primary-button-color: #61dafb;
     --secondary-button-color: gold;
-    /*--primary-font-family: 'Open Sans', sans-serif;/**/
-    --primary-font-family: 'Inconsolata', monospace;
+    --primary-font-family: 'Open Sans', sans-serif;
+    --secondary-font-family: 'Dosis';
+    --tertiary-font-family: 'La Belle Aurore';
     --max-width-container: 512px;
+    --primary-image-hero: 500px;
+    --secondary-image-hero: 354px;
+    --terciary-image-hero: 320px;
     --padding-section: 1.5rem;
-    --padding-container: 1rem;
+    --padding-container: 0.75rem;
     --primary-border-radius: 0.5rem;
     --transparencia_01: rgba(20, 19, 19, 0.877);
 }
 
 @media (min-width: 768px) {
     :root {
-        --max-width-container: 1024px;
+        --max-width-container: 1140px;
+        --med-width-container: 1024px;
         --padding-section: 2rem;
-        --padding-container: 0.75rem;
+        --padding-container: 0.5rem;
     }
 }

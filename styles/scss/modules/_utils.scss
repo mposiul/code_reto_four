@@ -10,6 +10,10 @@
     flex-direction: column;
 }
 
+.j-items-center {
+    justify-items: center;
+}
+
 .gap-sm {
     gap: calc(var(--padding-section) * 0.5);
 }
@@ -20,6 +24,14 @@
 
 .gap-lg {
     gap: calc(var(--padding-section) * 1.5);
+}
+
+.gap-xl {
+    gap: calc(var(--padding-section) * 2);
+}
+
+.gap-xxl {
+    gap: calc(var(--padding-section) * 2.5);
 }
 
 /*modificacion en ul*/

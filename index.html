@@ -4,34 +4,43 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/icons/id_card_01.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icons/fabicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>card_myLive V.L</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700;800&family=La+Belle+Aurore&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/css/index.css">
+    <link rel="stylesheet" href="./styles/css/fe.css">
+
+    <title>Expresso Coffee House</title>
 </head>
 
 <body class="body">
     <header class="header">
         <nav class="nav" id="header-nav">
             <div class="container f-elements f-elements--header p-relative">
-                <a>
-                    <img src="./img/icons/MyLive2.png" alt="Logo myLive" width="48" height="48" class="nav__logo" />
-                </a>
+                <div class="f-elements f-elements--header gap-sm">
+                    <a><img src="./img/icons/fabicon.ico" alt="Logo myLive" width="48" height="48"
+                            class="nav__logo" /></a>
+                    <a>
+                        <h1 class="nav__title">Expresso Coffee House</h1>
+                    </a>
+                </div>
                 <a href="#header-nav" class="nav__icon nav__icon--menu"><i class="bi bi-list"></i></a>
                 <a href="#header-close" class="nav__icon nav__icon--close"><i class="bi bi-x-circle"></i></a>
                 <ul class="list list--header f-elements f-elements--center f-elements--responsive gap-md">
                     <li>
-                        <a href="#hero" class="list__link">Perfil</a>
+                        <a href="#hero" class="list__link">Home</a>
                     </li>
                     <li>
-                        <a href="#proyects" class="list__link">Proyectos</a>
+                        <a href="#proyects" class="list__link">Productos</a>
                     </li>
                     <li>
-                        <a href="#experiences" class="list__link">MyLive</a>
+                        <a href="#experiences" class="list__link">Clientes</a>
                     </li>
                     <li>
                         <a href="#contact" class="list__link">Contacto</a>
@@ -42,47 +51,131 @@
     </header>
     <main class="main">
         <article id="hero" class="section hero f-elements f-elements--center">
-            <div class="container g-elements g-elements--responsive g-elements--center gap-lg">
-                <div class="card">
-                    <header class="card__header">
-                        <h1 class="card__title">🎖️ myLive 🎖️</h1>
+            <div class="container g-elements g-elements--responsive g-elements--center gap-sm">
+                <div class="cardzero">
+                    <header class="cardzero__header">
+                        <h1 class="cardzero__title"><i class="bi bi-shop"></i> Expresso Coffee House <i
+                                class="bi bi-shop"></i></h1>
                     </header>
-                    <section class="card__body">
-                        <h2 class="card__subtitle">My Live, mi prioridad</h2>
-                        <p class="card__text d-none md:d-block">
-                            ⚛ La atención médica es prioritaria y mis datos médicos al alcance de un click, la educación
-                            y la información están orientados a realizar una atención segura y oportuna. ⚛
+                    <section class="cardzero__body">
+                        <h2 class="cardzero__subtitle">Un gusto disfrutar de tu compañía.</h2>
+                        <p class="cardzero__text d-none md:d-block">
+                            Desde nuestros inicios, en el año 2017 somos algo más que un lugar para tomar un café.
+                            Incansablemente nos esforzamos por crear un ambiente cómodo y acogedor y por ser una parte integral de nuestra comunidad. 
+                            Muchas familias, amistades y personajes han disfrutado de nosotros. Varios negocios y amistades se
+                            forjaron en nuestras mesas, nos sentimos orgullosos de ser buenos vecinos y disfrutar de tu
+                            compañia. Estaremos dedicados a mantener este sentimiento que nos une. Graciad por
+                            visitarnos. Atte. Expresso Coffee House.
                         </p>
                     </section>
-                    <footer class="card__footer">
+                    <footer class="cardzero__footer">
                         <div class="f-elements f-elements--center gap-sm">
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="button button--primary">CV</a>
-                            <a href="https://github.com/mposiul" target="_blank" rel="noopener noreferrer"
-                                class="button button--outline-primary">GitHub</a>
+                            <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="button button--primary">+ Info.</a> -->
+                            <a href="#contact" rel="noopener noreferrer"
+                                class="button button--outline-primary">Contáctanos</a>
                         </div>
                     </footer>
                 </div>
-                <div class="hero__img">
-                    <img src="./img/picture/mposiul.jpg" alt="myLive" width="256" class="hero__primary-img">
-                    <figure class="hero__decorators">
+                <div class="hero__img f-elements">
+                    <img src="./img/picture/expresso_05.jpg" alt="OneCoffee" width="380" class="hero__primary-img">
+                    <!-- <figure class="hero__decorators">
                         <img src="./img/category/html.svg" alt="HTML" width="64" height="64" class="hero__decorator" />
                         <img src="./img/category/css.svg" alt="CSS" width="64" height="64" class="hero__decorator" />
                         <img src="./img/category/js.svg" alt="JavaScript" width="64" height="64"
                             class="hero__decorator" />
                         <img src="./img/category/react.svg" alt="React" width="64" height="64"
                             class="hero__decorator" />
-                    </figure>
+                    </figure> -->
                 </div>
             </div>
         </article>
 
         <section class="section" id="proyects">
-            <div class="container f-elements f-direction-column">
-                <h2 class="section__title">💻 Proyectos 💻</h2>
-                <div class="g-elements gap-sm">
-                    <div class="card">
+            <div class="containertwo f-elements f-direction-column gap-md" id="categorias">
+                <h2 class="section__title"><i class="bi bi-award"></i> <i class="bi bi-cup-hot"></i> <i
+                        class="bi bi-cup-straw"></i> Categorías de Productos <i class="bi bi-cup-straw"></i><i
+                        class="bi bi-cup-hot"></i><i class="bi bi-award"></i></h2>
+                <div class="g-elements g-cards-elements--responsive g-cards-elements--center gap-sm">
+
+                    <div class="cardtwo">
+                        <div class="cardtwo__face cardtwo__face--front">
+                            <img src="./img/picture/cooffees.webp" alt="B_coffee" class="cardtwo__img" />
+                            <h3>Bebidas de Café</h3>
+                        </div>
+                        <div class="cardtwo__face cardtwo__face--back">
+                            <h3>Bebidas de Café</h3>
+                            <p>
+                                Podrás degustar tu bebida favorita con diferentes sabores y matices. Desde cafés, mates,
+                                chocolates y mas, para acompañar con un buen postre y/o aperitivo ideal.
+                            </p>
+                            <div class="cardtwo__link">
+                                <a href="#">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardtwo">
+                        <div class="cardtwo__face cardtwo__face--front">
+                            <img src="./img/picture/b_light.jpeg" alt="B_coffee" class="cardtwo__img" />
+                            <h3>Bebidas Light</h3>
+                        </div>
+                        <div class="cardtwo__face cardtwo__face--back">
+                            <h3>Bebidas Light</h3>
+                            <p>
+                                Podrás degustar tu bebida favorita con diferentes sabores y matices. Desde cafés, mates,
+                                chocolates y mas, para acompañar con un buen postre y/o aperitivo ideal.
+                            </p>
+                            <div class="cardtwo__link">
+                                <a href="#">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardtwo">
+                        <div class="cardtwo__face cardtwo__face--front">
+                            <img src="./img/picture/aperitivos.jpeg" alt="B_coffee" class="cardtwo__img" />
+                            <h3>Acompañamientos</h3>
+                        </div>
+                        <div class="cardtwo__face cardtwo__face--back">
+                            <h3>acompañamientos</h3>
+                            <p>
+                                Podrás degustar tu bebida favorita con diferentes sabores y matices. Desde cafés, mates,
+                                chocolates y mas, para acompañar con un buen postre y/o aperitivo ideal.
+                            </p>
+                            <div class="cardtwo__link">
+                                <a href="#">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardtwo">
+                        <div class="cardtwo__face cardtwo__face--front">
+                            <img src="./img/picture/b_alcohol.webp" alt="B_coffee" class="cardtwo__img" />
+                            <h3>Cocktail's y mas</h3>
+                        </div>
+                        <div class="cardtwo__face cardtwo__face--back">
+                            <h3>Cocktail's y mas</h3>
+                            <p>
+                                Son mezclas que contiene por lo general dos o más tipos de bebidas, aunque algunas de ellas pueden ser bebidas no alcohólicas, a base de ingredientes como jugos, frutas, miel, leche o crema, especias, etc.
+                            </p>
+                            <div class="cardtwo__link">
+                                <a href="#">Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- Inicio tarjetas expresso productos  -->
+        <section class="section" id="proyects">
+            <div class="container f-elements f-direction-column gap-md">
+                <h2 class="section__title"><i class="bi bi-cup-straw"></i><i
+                    class="bi bi-cup-hot"></i><i class="bi bi-award"></i> Tipografía de Caffees <i class="bi bi-cup-straw"></i><i
+                    class="bi bi-cup-hot"></i><i class="bi bi-award"></i></h2>
+                <div class="g-elements g-cards-elements--responsive j-items-center gap-sm" id="producto">
+
+                    <!-- <div class="card f-elements f-direction-column">
                         <img src="https://i.postimg.cc/LXPKVpKW/cineverse.png" alt="Cineverse" class="card__img" />
-                        <div class="card__body f-elements f-direction-column gap-xs">
+                        <div class="card__body f-elements f-direction-column gap-ss">
                             <h3 class="card__title">Cineverse</h3>
                             <p class="card__text">
                                 Las mejores películas, estrenos, promociones y dulces en el mejor Cine. Contamos con las
@@ -98,15 +191,14 @@
                                     rel="noopener noreferrer" class="button button--secondary">Código</a>
                             </div>
                         </div>
+                    </div> -->
 
-                        <div class="card">Proyecto_2</div>
-                        <div class="card">Proyecto_3</div>
-                        <div class="card">Proyecto_4</div>
-                    </div>
                 </div>
+            </div>
         </section>
+        <!-- Fin tarjetas expresso productos  -->
 
-        <section id="experiences">
+        <!-- <section id="experiences">
             <div>
                 <h2>👨‍💻 Experiencias 👨‍💻</h2>
                 <table>
@@ -186,6 +278,7 @@
                 </table>
             </div>
         </section>
+
         <section id="contact">
             <div>
                 <h2>🤗 Contacto 🤗</h2>
@@ -194,40 +287,44 @@
                     <button>Contactar</button>
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
-    <footer>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="https://www.youtube.com/watch?v=o25JqvtYVUo" target="_blank"> <img
-                            src="./img/social/youtube.svg" alt="Youtube" width="34" height="34" /></a>
-                </li>
-                <li>
-                    <a class="card__footer-nav-link" href="https://github.com/mposiul" target="_blank"> <img
-                            src="./img/social/github.svg" alt="Github" width="34" height="34" /></a>
-                </li>
-                <li>
-                    <a class="card__footer-nav-link"
-                        href="https://www.linkedin.com/in/luis-p%C3%A9rez-maquera-a92949229/" target="_blank"> <img
-                            src="./img/social/linkedin.svg" alt="Linkedin" width="34" height="34" /></a>
-                </li>
-                <li>
-                    <a class="card__footer-nav-link" href="https://www.facebook.com/luis.perezmaquera.1"
-                        target="_blank"> <img src="./img/social/facebook.svg" alt="Facebook" width="34"
-                            height="34" /></a>
-                </li>
-                <li>
-                    <a class="card__footer-nav-link" href="https://twitter.com/LuisOma79891729" target="_blank"> <img
-                            src="./img/social/twitter.svg" alt="Twitter" width="34" height="34" /></a>
-                </li>
-            </ul>
-            <h5>Copyright &copy:
-                <a href="#">mposiul</a>
-                Todos los derechos reservados.
-            </h5>
-        </nav>
-    </footer>
+
+
+<!--::::Pie de Pagina::::::-->
+    <section id="contact">
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="./img/icons/fabicon.ico" alt="Expresso Coffee House">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Tenemos ambientes y cómodos y acogedores para tu mejor compañia.</p>
+                    <p>Estamos ubicados entre los Jirones Ponciano Vigil con Adriano Novoa.</p>
+                    <p>Contactanos: 968450004 / 976005589</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Expresso Coffee House</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+    </section>
+
+    <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>
