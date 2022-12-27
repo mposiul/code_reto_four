@@ -23,7 +23,7 @@ const foods = () => {
     };
     //consulta a una API en la nube
         const fetchRead = async () => {
-            const response = await fetch('https://github.com/mposiul/code_reto_four/blob/develop/api_expresso/data.json');
+            const response = await fetch('https://mposiul.github.io/code_reto_four/api_expresso/data.json');
             const data = await response.json();
             renderFoods(data);
             //console.log(data);
